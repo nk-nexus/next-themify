@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 
 const Home: NextPage = () => {
@@ -13,7 +12,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <h1 className=" dark:bg-gray-900  dark:text-gray-100 " >This is H1 heading</h1>
       </main>
     </div>
   );
